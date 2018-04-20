@@ -39,4 +39,8 @@ $(document).ready(function() {
 		$("hr").hide();
 		$(".image1").css("margin-bottom", 200);
 	})
+	$(".exit").click(function() {
+		$(".extension").hide();
+		$("hr").show();
+	})
 });
