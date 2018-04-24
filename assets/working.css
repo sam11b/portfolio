@@ -1,0 +1,149 @@
+body {
+	background: #f3f3f3;
+	border: 5px solid #434343;
+}
+.top_elements {
+	display: flex;
+	flex-direction: row;
+}
+.centering {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.name {
+	width: 350px;
+	height: 50px;
+	font-size: 30px;
+	color: #434343;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	border-style: solid;
+    border-width: 5px;
+    border-color: #434343;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: baseline;
+	width: 75px;
+	height: 75px;
+}
+
+.menu:hover {
+	cursor: pointer;
+}
+
+hr {
+	margin-top: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #434343;
+}
+
+.socials {
+	display: flex;
+	width: 200px;
+	height: 50px;
+}
+
+.socials svg {
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+}
+
+.im_bad {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.extension {
+	height: 750px;
+	width: 450px;
+	z-index: 1;
+	display: flex;
+	flex-direction: row;
+	background-color: #f3f3f3;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	left: 0%;
+	top: 0%;
+	position: relative;
+	padding-left: 40px;
+	padding-top: 40px;
+	padding-right: 40px;
+	justify-content: space-around;
+	position: absolute;
+	border: 3px solid #434343;
+}
+
+.extension img {
+	width: 180px;
+	height: 250px;
+}
+
+.options {
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.things {
+	margin-bottom: 25px;
+}
+
+.basic_info {
+	margin-left: 125px;
+	margin-right: -80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-right: 75px;
+}
+
+.small_desc {
+	font-size: 15px;
+	font-style: italic;
+	display: flex;
+}
+
+.name1 {
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 1px 0 #888888;
+}
+
+#ex {
+	padding-right: 15px;
+	margin-bottom: -15px;
+}
+.fas:hover {
+	cursor: pointer;
+}
+
+.things:hover {
+	cursor: pointer;
+}
+
+.exit:hover {
+	cursor: pointer;
+}
+
+a:link {
+	text-decoration: none;
+	color: #434343;
+}
+a:visited {
+    text-decoration: none;
+    color: #434343;
+}
+
