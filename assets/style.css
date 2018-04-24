@@ -1,7 +1,7 @@
 body {
 	background: #f3f3f3;
+	border: 5px solid #434343;
 }
-
 .top_elements {
 	display: flex;
 	flex-direction: row;
@@ -24,6 +24,7 @@ body {
     border-width: 5px;
     border-color: #434343;
     margin-top: 10px;
+    margin-left: 100px;
 }
 
 .menu {
@@ -83,12 +84,14 @@ hr {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	left: 0%;
+	top: 0%;
 	position: relative;
 	padding-left: 40px;
 	padding-top: 40px;
 	padding-right: 40px;
 	justify-content: space-around;
 	position: absolute;
+	border: 3px solid #434343;
 }
 
 .extension img {
@@ -142,4 +145,29 @@ hr {
 
 .exit:hover {
 	cursor: pointer;
+}
+
+.movement {
+	margin-top: 250px;
+}
+
+.socials {
+	display: flex;
+	width: 200px;
+	height: 50px;
+}
+
+.socials svg {
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #434343;
+}
+a:visited {
+    text-decoration: none;
+    color: #434343;
 }

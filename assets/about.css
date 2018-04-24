@@ -1,5 +1,6 @@
 body {
 	background: #f3f3f3;
+	border: 5px solid #434343;
 }
 
 .top_elements {
@@ -26,6 +27,7 @@ body {
     border-width: 5px;
     border-color: #434343;
     margin-top: 10px;
+    margin-left: 100px;
 }
 
 .menu {
@@ -55,10 +57,11 @@ hr {
 
 }
 
-.sam_sf img {
+
+.sam_leaning img {
 	width: 400px;
 	height: 400px;
-	box-shadow: 0 0 20px 20px #7FABD9;
+	opacity: 1;
 }
 
 .title {
@@ -78,14 +81,14 @@ hr {
 }
 
 .bullet {
-	font-size: 20px;
+	font-size: 12px;
 	color: #434343;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	margin-left: 25px;
 	width: 650px;
-	height: 85px;
-	margin-top: 10px;
+	height: 30px;
+	margin-top: 15px;
 }
 
 .menu {
@@ -110,12 +113,14 @@ hr {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	left: 0%;
+	top: 0%;
 	position: relative;
 	padding-left: 40px;
 	padding-top: 40px;
 	padding-right: 40px;
 	justify-content: space-around;
 	position: absolute;
+	border: 3px solid #434343;
 }
 .extension img {
 	width: 180px;
@@ -163,4 +168,32 @@ hr {
 
 .exit:hover {
 	cursor: pointer;
+}
+
+.bitmoji img {
+	width: 400px;
+	height: 400px;
+	margin-top: -400px;
+
+}
+
+.socials {
+	display: flex;
+	width: 200px;
+	height: 50px;
+}
+
+.socials svg {
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #434343;
+}
+a:visited {
+    text-decoration: none;
+    color: #434343;
 }
