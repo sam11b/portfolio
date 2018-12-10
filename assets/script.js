@@ -42,7 +42,6 @@ $(document).ready(function() {
 	// jQuery Function Number 4
 	$(".menu").click(function() {
 		$(".extension").show();
-		$("hr").hide();
 		$(".image1").css("margin-bottom", 200);
 	})
 	$(".exit").click(function() {
